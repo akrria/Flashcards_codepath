@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/wrong_answer2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:background="#F9DADA"
+        android:text="7"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:shape="rectangle"
+        android:radius="20dp"/>
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/solid_color_shape"
+        android:fontFamily="cursive"
+        android:text="How many Guardians are in the anime Sailor Moon?"
+        android:textAlignment="center"
+        android:textColor="#191927"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp"
+        android:background="#F9DADA"
+        android:text="6"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:visibility="visible"
+        android:shape="rectangle"
+        android:radius="20dp"/>
+
+    <TextView
+        android:id="@+id/wrong_answer1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:background="#F9DADA"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:shape="rectangle"
+        android:radius="20dp"
+        />
+
+
+</RelativeLayout>
+
