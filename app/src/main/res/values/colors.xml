@@ -4,5 +4,5 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="wrong_red">#f02d0f</color>
-    <color name="correct_green">#0ff056</color>
+
 </resources>

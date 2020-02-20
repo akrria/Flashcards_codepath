@@ -6,64 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/wrong_answer2"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="23dp"
-        android:background="#F9DADA"
-        android:text="7"
-        android:textAlignment="center"
-        android:textSize="40sp"
-        android:shape="rectangle"
-        android:radius="20dp"/>
 
     <TextView
         android:id="@+id/flashcard_question"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/solid_color_shape"
-        android:fontFamily="cursive"
-        android:text="How many Guardians are in the anime Sailor Moon?"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/block_color"
+        android:fontFamily="@font/allerta_stencil"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="@string/question"
         android:textAlignment="center"
         android:textColor="#191927"
         android:textSize="40sp" />
 
+    <Button
+        android:id="@+id/wrong_answer2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/answer_grad"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="@string/wrong2"
+        android:textAlignment="center"
+        android:textSize="40sp" />
 
-    <TextView
+    <Button
         android:id="@+id/flashcard_answer"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="94dp"
-        android:background="#F9DADA"
-        android:text="6"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="123dp"
+        android:background="@drawable/answer_grad"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="@string/answer"
         android:textAlignment="center"
         android:textSize="40sp"
-        android:visibility="visible"
-        android:shape="rectangle"
-        android:radius="20dp"/>
+        android:visibility="visible" />
 
-    <TextView
+    <Button
         android:id="@+id/wrong_answer1"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:background="#F9DADA"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="170dp"
-        android:text="5"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="198dp"
+        android:background="@drawable/answer_grad"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="@string/wrong1"
         android:textAlignment="center"
-        android:textSize="40sp"
-        android:shape="rectangle"
-        android:radius="20dp"
-        />
+        android:textSize="40sp" />
 
 
 </RelativeLayout>
