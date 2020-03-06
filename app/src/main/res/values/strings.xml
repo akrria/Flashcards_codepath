@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">flash</string>
     <string name="question">How many Guardians are in the anime Sailor Moon?</string>
-    <string name="answer">6</string>
-    <string name="wrong1">5</string>
-    <string name="wrong2">7</string>
+    <string name="answer">9</string>
+    <string name="wrong1">8</string>
+    <string name="wrong2">10</string>
 </resources>

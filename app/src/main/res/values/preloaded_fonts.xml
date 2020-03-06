@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/allerta_stencil</item>
+        <item>@font/arapey</item>
         <item>@font/caudex</item>
         <item>@font/chelsea_market</item>
         <item>@font/eb_garamond</item>
